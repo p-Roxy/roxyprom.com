@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body onload="location.href='#container'">
+      <div id="container">
+          <div class="row">
+              <div class="large-12 small-12 columns small-centered text-center">
+                  <canvas id="pixie" class="hide-for-small-only hide-for-medium-only"></canvas>
+                  <h1>Hello!</h1>
+                  <h2><strong>My name is Roxy</strong></h2>
+                  <div class="circle small-centered small-4">
+                      <img src="FrontFacingAnimation.svg" />
+                  </div>
+                  <div class="large-8 small-centered">
+                      <p id="about">
+                          When I was younger, my dream was to be a fish. Unfortunately,
+                          as I got older I realized this was an impossible dream. So I began
+                          looking towards other career opportunities.
+                      </p>
+                  </div>
+                  <div class="row">
+                      <div class="large-6 columns small-centered">
+                          <a href="#" data-reveal-id="flipper"><img src="Hexagon Timeline.svg" /></a>
+                      </div>
+                      <div id="flipper" class="reveal" data-reveal aria-labelledby="videoModalTitle" aria-hidden="true" role="dialog">
+                          <h2 id="flipperTitle">Meet Flipper, the Autonomous Robot</h2>
+                          <div class="flex-video middle">
+                                <video width="300" height="240" frameborder="0" src="IMG_6467.mp4" type="video/mp4" muted controls></video>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="row middle">
+                      <form action="something.php">
+                              <div class="large-8 columns text-center small-centered">
+                                  <label>Feedback Form</label>
+                                  <textarea type="text" placeholder="Anything (constructive please!)"></textarea>
+                                  <a href="#" class="button">Submit</a>
+                              </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="row footer" style="padding: 10px">
+          <div class="large-12 text-right">
+          <p style="color:gray; font-size:10px;">Thank you for visiting!</p>
+              </div>
+      </div>
+
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+      <script src="js/index.js"></script>
+  </body>
+</html>

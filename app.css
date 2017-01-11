@@ -1,0 +1,72 @@
+body {
+    overflow-x: hidden;
+    background-color: black;
+}
+
+h1 {
+    font-size: 10em;
+    font-weight: 100;
+    color: #fffff0;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+h2, p, li, label {
+    color: #E1E2E5;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+
+}
+
+a circle {
+    pointer-events: none;
+}
+
+a {
+    display: block;
+}
+
+#container {
+    background:-o-linear-gradient(top, #000, #14031C);
+	background:-moz-linear-gradient(top, #000, #14031C);
+	background:-webkit-linear-gradient(top, #000, #14031C);
+ 	background:linear-gradient(top, #000, #14031C);	   
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#000', EndColorStr='#14031C');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#000', EndColorStr='#14031C')";
+}
+
+#pixie {
+  z-index:10;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+form {
+    padding: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+}
+
+#about {
+    -webkit-keyframes: fadeon 4s 1;
+    animation: fadeon 4s 1;
+	-webkit-font-smoothing:antialiased;
+    padding-top: 2.5em;
+}
+
+svg {
+    pointer-events: none;
+}
+
+.button {
+    background-color: #14031C;
+    border: 1px solid white;
+}
